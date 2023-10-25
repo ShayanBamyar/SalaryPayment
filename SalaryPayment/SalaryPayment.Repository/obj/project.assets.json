@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SalaryPayment.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SalaryPayment.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SalaryPayment.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SalaryPayment.Models/1.0.0": {
+      "type": "project",
+      "path": "../SalaryPayment.Models/SalaryPayment.Models.csproj",
+      "msbuildProject": "../SalaryPayment.Models/SalaryPayment.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SalaryPayment.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sh.bamyar\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GitHub\\SalaryPayment\\SalaryPayment\\SalaryPayment.Repository\\SalaryPayment.Repository.csproj",
+      "projectName": "SalaryPayment.Repository",
+      "projectPath": "D:\\GitHub\\SalaryPayment\\SalaryPayment\\SalaryPayment.Repository\\SalaryPayment.Repository.csproj",
+      "packagesPath": "C:\\Users\\sh.bamyar\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\SalaryPayment\\SalaryPayment\\SalaryPayment.Repository\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sh.bamyar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\GitHub\\SalaryPayment\\SalaryPayment\\SalaryPayment.Models\\SalaryPayment.Models.csproj": {
+              "projectPath": "D:\\GitHub\\SalaryPayment\\SalaryPayment\\SalaryPayment.Models\\SalaryPayment.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
